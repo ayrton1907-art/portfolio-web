@@ -1,3 +1,21 @@
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Sobre mí",
+  description:
+    "Perfil, enfoque de trabajo y experiencia de Ayrton López — Backend Developer (TypeScript, Node.js, NestJS, SQL).",
+  openGraph: {
+    title: "Sobre mí — Ayrton López",
+    description:
+      "Backend Developer: APIs, automatización y sistemas orientados a negocio.",
+    images: ["/og.png"],
+  },
+  twitter: {
+    card: "summary_large_image",
+    images: ["/og.png"],
+  },
+};
+
 export default function AboutPage() {
   return (
     <main className="min-h-screen bg-black text-white">
