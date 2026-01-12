@@ -13,38 +13,41 @@ type Project = {
 
 const PROJECTS: Project[] = [
   {
-    title: "Spartan",
-    subtitle: "Plataforma de gestión y organización (WIP)",
-    status: "WIP (Privado)",
-    description: [
-      "Spartan es un proyecto personal orientado a ordenar procesos y transformar operaciones “desprolijas” en flujos claros y medibles.",
-      "El foco está en diseñar una base escalable: estructura modular, decisiones de producto y una experiencia simple para el usuario final.",
-    ],
-    bullets: [
-      "Arquitectura modular pensada para crecer sin reescribir",
-      "Separación clara entre dominio (negocio) y presentación",
-      "Base para automatizar tareas repetitivas y mejorar trazabilidad",
-    ],
-    tags: ["Next.js", "TypeScript", "React"],
-    privateNote:
-      "Repositorio privado por ahora. Puedo explicar arquitectura, decisiones técnicas y mostrar un demo acotado en entrevista.",
-  },
-  {
     title: "Proyecto Sigma",
-    subtitle: "Sistema interno de seguimiento y análisis",
+    subtitle: "Sistema de seguimiento y decisión para procesos de venta complejos",
     status: "Privado",
     description: [
-      "Proyecto Sigma es un sistema desarrollado íntegramente por mí para un entorno real de trabajo.",
-      "Centraliza el seguimiento de presupuestos/clientes, automatiza acciones comerciales y convierte la operación diaria en métricas y tableros para mejorar decisiones.",
+      "El proceso existía, pero no había visibilidad real: presupuestos dispersos, seguimientos inconsistentes y decisiones reactivas.",
+      "En lugar de sumar pantallas o métricas sueltas, diseñé un sistema central basado en fases, reglas y señales para transformar datos crudos en decisiones claras.",
+      "La prioridad no fue “mostrar más”, sino entender mejor: reducir ruido y aumentar trazabilidad.",
     ],
     bullets: [
-      "Automatización de seguimiento y recordatorios para mejorar contactabilidad",
-      "Modelado de lógica de negocio y estados (fases/etapas) para ordenar el proceso",
-      "Dashboards con métricas operativas para seguimiento del rendimiento",
+      "Eje por obra y fases para ordenar el flujo comercial",
+      "Reglas de negocio claras y versionables (criterio antes que UI)",
+      "Seguimiento operativo y señales accionables para pasar de reactivo a proactivo",
+      "Dashboards y métricas orientadas a control y mejora continua",
     ],
     tags: ["NestJS", "PostgreSQL", "React", "TypeScript"],
     privateNote:
-      "Repositorio privado por confidencialidad. Puedo mostrar capturas o un demo acotado en entrevista.",
+      "Repositorio privado por confidencialidad. Puedo explicar arquitectura y decisiones, y mostrar capturas o un demo acotado en entrevista.",
+  },
+  {
+    title: "Spartan",
+    subtitle: "Framework conceptual para ordenar operaciones y diseñar sistemas claros",
+    status: "WIP (Privado)",
+    description: [
+      "Spartan es un proyecto personal: un laboratorio para transformar procesos desordenados en estructuras simples, comprensibles y escalables.",
+      "Antes de escribir código, el foco está en entender el flujo completo: decisiones, fricción y qué información realmente importa.",
+      "El sistema se diseña desde la lógica, no desde la interfaz.",
+    ],
+    bullets: [
+      "Diseño de sistemas antes de implementación",
+      "Reducción consciente de complejidad (menos ruido, más señal)",
+      "Pensamiento estructural aplicado a problemas reales",
+    ],
+    tags: ["Next.js", "TypeScript", "React"],
+    privateNote:
+      "Repositorio privado por ahora. Puedo explicar el enfoque, decisiones técnicas y mostrar un demo acotado en entrevista.",
   },
 ];
 
@@ -160,12 +163,15 @@ export default function HomePage() {
             <h1 className="text-4xl font-semibold tracking-tight sm:text-5xl">
               Ayrton López
             </h1>
+
             <p className="text-white/65">
-              Desarrollador Backend — TypeScript · Node.js · NestJS · SQL
+              Desarrollador Backend — Sistemas, automatización y lógica de negocio
             </p>
+
             <p className="max-w-2xl text-sm text-white/70">
-              Construyo sistemas de negocio: automatización, APIs robustas y
-              dashboards accionables.
+              Diseño sistemas que ordenan el caos y convierten datos en decisiones.
+              Arquitectura de procesos, lógica de negocio y automatización para equipos
+              que necesitan claridad, no más ruido.
             </p>
           </div>
 
@@ -185,7 +191,8 @@ export default function HomePage() {
           <div className="flex items-end justify-between gap-4">
             <h2 className="text-2xl font-semibold tracking-tight">Proyectos</h2>
             <span className="text-xs text-white/45">
-              (Versión estática — API en desarrollo)
+              Algunos proyectos son privados por confidencialidad. El foco está en el
+              enfoque y las decisiones.
             </span>
           </div>
 

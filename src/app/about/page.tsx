@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Sobre mí — Ayrton López",
     description:
-      "Backend Developer: APIs, automatización y sistemas orientados a negocio.",
+      "Backend Developer: sistemas, automatización y lógica de negocio orientada a decisiones.",
     images: ["/og.png"],
   },
   twitter: {
@@ -23,9 +23,10 @@ export default function AboutPage() {
         <header className="space-y-3">
           <h1 className="text-3xl font-semibold tracking-tight">Sobre mí</h1>
           <p className="max-w-3xl text-white/70">
-            Soy desarrollador backend enfocado en convertir procesos reales de negocio en
-            sistemas claros, mantenibles y medibles. Me importa más el impacto y la lógica
-            que la moda tecnológica.
+            Diseño sistemas que ordenan el caos y convierten datos en decisiones. Trabajo
+            en backend y lógica de negocio para transformar procesos reales en estructuras
+            claras, mantenibles y medibles. Me importa más el criterio y el impacto que la
+            moda tecnológica.
           </p>
         </header>
 
@@ -35,7 +36,7 @@ export default function AboutPage() {
             <ul className="mt-3 space-y-2 text-sm text-white/75">
               <li>• Primero entiendo el problema y las reglas del negocio.</li>
               <li>• Después diseño una solución simple, modular y escalable.</li>
-              <li>• Priorizo mantenibilidad: nombres, estructura, y decisiones justificables.</li>
+              <li>• Priorizo mantenibilidad: estructura, nombres y decisiones justificables.</li>
               <li>• Me gusta medir: métricas, tableros y feedback del uso real.</li>
             </ul>
           </div>
@@ -46,8 +47,8 @@ export default function AboutPage() {
               TypeScript · Node.js · NestJS · SQL · PostgreSQL
             </p>
             <p className="mt-2 text-sm text-white/60">
-              También trabajé con PHP, Vue y automatizaciones. Uso IA como apoyo, pero cuido
-              fundamentos y calidad del código.
+              También trabajé con PHP, Vue y automatizaciones. Uso IA como apoyo, pero
+              cuido fundamentos y calidad del código.
             </p>
           </div>
 
