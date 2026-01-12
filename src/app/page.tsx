@@ -15,7 +15,7 @@ const PROJECTS: Project[] = [
   {
     title: "Spartan",
     subtitle: "Plataforma de gestión y organización (WIP)",
-    status: "WIP",
+    status: "WIP (Privado)",
     description: [
       "Spartan es un proyecto personal orientado a ordenar procesos y transformar operaciones “desprolijas” en flujos claros y medibles.",
       "El foco está en diseñar una base escalable: estructura modular, decisiones de producto y una experiencia simple para el usuario final.",
@@ -26,7 +26,8 @@ const PROJECTS: Project[] = [
       "Base para automatizar tareas repetitivas y mejorar trazabilidad",
     ],
     tags: ["Next.js", "TypeScript", "React"],
-    repoUrl: "https://github.com/ayrton1907-art/spartan",
+    privateNote:
+      "Repositorio privado por ahora. Puedo explicar arquitectura, decisiones técnicas y mostrar un demo acotado en entrevista.",
   },
   {
     title: "Proyecto Sigma",
@@ -175,6 +176,7 @@ export default function HomePage() {
             <ButtonLink href="https://github.com/ayrton1907-art">GitHub</ButtonLink>
             {/* Dejá tu CV en /public/cv.pdf */}
             <ButtonLink href="/cv.pdf">Descargar CV</ButtonLink>
+            <ButtonLink href="/about">Sobre mí</ButtonLink>
           </div>
         </header>
 
