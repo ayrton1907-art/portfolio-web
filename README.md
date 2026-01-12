@@ -1,18 +1,32 @@
-# portfolio-web
+# Portfolio Web
 
-Frontend for my developer portfolio.
+Portfolio personal como desarrollador backend, enfocado en mostrar proyectos reales,
+decisiones técnicas y enfoque en producto.
 
-This project showcases selected work and personal projects, with a focus on backend-oriented development and real-world systems.
+Este frontend es una versión estática inicial. La API y la capa dinámica
+se encuentran en desarrollo.
+
+## Objetivo
+
+Mostrar proyectos con lógica real de negocio, priorizando claridad,
+estructura y mantenibilidad por sobre el “showroom visual”.
 
 ## Stack
+
 - Next.js (App Router)
-- React
 - TypeScript
+- React
 - Tailwind CSS
+- Vercel (deploy)
 
-## Getting Started
+## Estructura actual
 
-Install dependencies:
+- Página principal con presentación profesional
+- Sección de proyectos (versión estática)
+- Diseño minimalista, orientado a lectura técnica clara
+
+## Desarrollo local
 
 ```bash
 npm install
+npm run dev
